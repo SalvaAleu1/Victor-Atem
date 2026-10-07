@@ -15,7 +15,7 @@ Multi-page website for Victor Atem Atem, SPLM candidate for Governor of Warrap S
 
 ## Deployment on Vercel
 
-1. Import `SalvaAleu1/Victor-Atem` into Vercel.
+1. Import this repository into Vercel.
 2. Framework preset: **Other**.
 3. Build command: leave empty.
 4. Output directory: leave empty.
