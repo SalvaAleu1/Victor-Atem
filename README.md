@@ -1,39 +1,62 @@
-# Victor Atem Atem — Warrap State Governorship 2026 (Independent Demo)
+# Victor Atem Atem — Warrap State 2026
 
-A responsive, deployment-ready static website created as a professional demonstration of candidate website development.
+A responsive multi-page candidate website concept for Victor Atem Atem, SPLM candidate for Governor of Warrap State in South Sudan's 2026 general election.
 
-## Important status
+## Pages
 
-This is an independent demonstration project. It is not an official campaign website and does not claim endorsement by Victor Atem Atem, his campaign, a political party, or the National Elections Commission.
+- Home
+- About
+- Manifesto
+- News
+- Gallery
+- Campaign Schedule
+- Contact
+- Custom 404 page
 
-The site intentionally includes only public information supported by published sources. Unverified campaign contacts, endorsements, donation links, biography details and manifesto claims have not been added.
+## Current content status
 
-## Public sources currently used
+The website uses the Victor Atem photograph supplied for this project and public information already available about his service record and 2026 governorship bid.
 
-- Standard Zone News — 23 September 2026 governorship declaration and listed priorities
-- Sudan Tribune — Warrap State cabinet roles; 2017 appointment as Governor of Gogrial State; 2023 appointment as Defence Undersecretary
-- UNDP South Sudan — 2018 Gogrial State Revenue Authority inauguration
-- Radio Tamazuj — 2024 end of service as Defence Undersecretary
-- National Elections Commission of South Sudan — 22 December 2026 election date and Warrap voter education information
+The SPLM affiliation on the website was supplied directly for this project.
+
+No campaign phone number, campaign email, office location, rally date, endorsement, donation channel or detailed manifesto promise has been invented. Those can be added once confirmed by Victor Atem Atem or an authorised campaign representative.
 
 ## Deployment on Vercel
 
-1. Import the GitHub repository into Vercel.
-2. Framework preset: Other.
+1. Import `SalvaAleu1/Victor-Atem` into Vercel.
+2. Framework preset: **Other**.
 3. Build command: leave empty.
 4. Output directory: leave empty.
 5. Deploy.
 
-No environment variables or backend services are required for this version.
+`vercel.json` enables clean URLs and basic security headers.
 
-## Structure
+## Main files
 
-- index.html — site content and SEO metadata
-- styles.css — complete responsive styling
-- script.js — mobile navigation and year handling
-- assets/victor-atem.webp — optimized website image
-- assets/favicon.svg — site icon
-- vercel.json — deployment and response header configuration
+- `index.html`
+- `about.html`
+- `manifesto.html`
+- `news.html`
+- `gallery.html`
+- `schedule.html`
+- `contact.html`
+- `404.html`
+- `styles.css`
+- `script.js`
+- `assets/victor-atem.webp`
+- `assets/favicon.svg`
+
+## Public sources used
+
+- National Elections Commission of South Sudan
+- Standard Zone News
+- Sudan Tribune
+- Radio Tamazuj
+- UNDP South Sudan
+
+## Project status
+
+This repository is an independent website-development demonstration and not an official campaign publication unless and until it is approved or adopted by the candidate or an authorised campaign team.
 
 ## Developer
 
